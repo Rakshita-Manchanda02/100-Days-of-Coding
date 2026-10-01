@@ -17,18 +17,18 @@ Area=21, Perimeter=20
 int main()
 {
   int length, breadth, area, perimeter;
-  printf("Enter lenghth of the rectangle: \n");
+  printf("Enter length of the rectangle: \n");
   scanf("%d",&length);
 
-  print("Enter breadth of the reactangle: \n");
+  printf("Enter breadth of the reactangle: \n");
   scanf("%d",&breadth);
 
-  area = lenghth*breadth;
-  printf("The area of the Rectangle is: %d",area);
+  area = length*breadth;
+  printf("The area of the Rectangle is: %d \n",area);
 
-  perimeter = 2*(lenght+breadth);
+  perimeter = 2*(length+breadth);
   printf("The perimeter of the rectangle is: %d", perimeter);
 
-  return0 ;
+  return 0;
 
 }
