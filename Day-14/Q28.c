@@ -13,3 +13,22 @@ Output 2:
 48 (2 * 4 * 6)
 
 */
+
+#include <stdio.h>
+
+int main()
+{
+    int n, i, product = 1;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    for(i = 2; i <= n; i = i + 2)
+    {
+        product = product * i;
+    }
+
+    printf("%d", product);
+
+    return 0;
+}
